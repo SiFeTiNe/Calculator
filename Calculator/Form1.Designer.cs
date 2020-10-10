@@ -59,15 +59,17 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.ForeColor = System.Drawing.Color.Gold;
-            this.button1.Location = new System.Drawing.Point(72, 135);
+            this.button1.Location = new System.Drawing.Point(48, 88);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(64, 64);
+            this.button1.Size = new System.Drawing.Size(43, 42);
             this.button1.TabIndex = 0;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
@@ -77,9 +79,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.ForeColor = System.Drawing.Color.Gold;
-            this.button2.Location = new System.Drawing.Point(142, 135);
+            this.button2.Location = new System.Drawing.Point(95, 88);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(64, 64);
+            this.button2.Size = new System.Drawing.Size(43, 42);
             this.button2.TabIndex = 1;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
@@ -89,9 +92,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Black;
             this.button3.ForeColor = System.Drawing.Color.Gold;
-            this.button3.Location = new System.Drawing.Point(212, 135);
+            this.button3.Location = new System.Drawing.Point(141, 88);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 64);
+            this.button3.Size = new System.Drawing.Size(43, 42);
             this.button3.TabIndex = 2;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
@@ -101,9 +105,10 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Black;
             this.button4.ForeColor = System.Drawing.Color.Gold;
-            this.button4.Location = new System.Drawing.Point(72, 205);
+            this.button4.Location = new System.Drawing.Point(48, 133);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 64);
+            this.button4.Size = new System.Drawing.Size(43, 42);
             this.button4.TabIndex = 3;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
@@ -113,9 +118,10 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Black;
             this.button5.ForeColor = System.Drawing.Color.Gold;
-            this.button5.Location = new System.Drawing.Point(142, 205);
+            this.button5.Location = new System.Drawing.Point(95, 133);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(64, 64);
+            this.button5.Size = new System.Drawing.Size(43, 42);
             this.button5.TabIndex = 4;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
@@ -125,9 +131,10 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Black;
             this.button6.ForeColor = System.Drawing.Color.Gold;
-            this.button6.Location = new System.Drawing.Point(212, 205);
+            this.button6.Location = new System.Drawing.Point(141, 133);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(64, 64);
+            this.button6.Size = new System.Drawing.Size(43, 42);
             this.button6.TabIndex = 5;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
@@ -137,9 +144,10 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Black;
             this.button7.ForeColor = System.Drawing.Color.Gold;
-            this.button7.Location = new System.Drawing.Point(72, 275);
+            this.button7.Location = new System.Drawing.Point(48, 179);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(64, 64);
+            this.button7.Size = new System.Drawing.Size(43, 42);
             this.button7.TabIndex = 6;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
@@ -149,9 +157,10 @@
             // 
             this.button8.BackColor = System.Drawing.Color.Black;
             this.button8.ForeColor = System.Drawing.Color.Gold;
-            this.button8.Location = new System.Drawing.Point(142, 275);
+            this.button8.Location = new System.Drawing.Point(95, 179);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(64, 64);
+            this.button8.Size = new System.Drawing.Size(43, 42);
             this.button8.TabIndex = 7;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
@@ -161,9 +170,10 @@
             // 
             this.button9.BackColor = System.Drawing.Color.Black;
             this.button9.ForeColor = System.Drawing.Color.Gold;
-            this.button9.Location = new System.Drawing.Point(212, 275);
+            this.button9.Location = new System.Drawing.Point(141, 179);
+            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(64, 64);
+            this.button9.Size = new System.Drawing.Size(43, 42);
             this.button9.TabIndex = 8;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
@@ -173,9 +183,10 @@
             // 
             this.button10.BackColor = System.Drawing.Color.Black;
             this.button10.ForeColor = System.Drawing.Color.Gold;
-            this.button10.Location = new System.Drawing.Point(352, 205);
+            this.button10.Location = new System.Drawing.Point(235, 133);
+            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(64, 64);
+            this.button10.Size = new System.Drawing.Size(43, 42);
             this.button10.TabIndex = 9;
             this.button10.Text = "บวก";
             this.button10.UseVisualStyleBackColor = false;
@@ -185,9 +196,10 @@
             // 
             this.button11.BackColor = System.Drawing.Color.Black;
             this.button11.ForeColor = System.Drawing.Color.Gold;
-            this.button11.Location = new System.Drawing.Point(422, 205);
+            this.button11.Location = new System.Drawing.Point(281, 133);
+            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(64, 64);
+            this.button11.Size = new System.Drawing.Size(43, 42);
             this.button11.TabIndex = 10;
             this.button11.Text = "ลบ";
             this.button11.UseVisualStyleBackColor = false;
@@ -197,9 +209,10 @@
             // 
             this.button12.BackColor = System.Drawing.Color.Black;
             this.button12.ForeColor = System.Drawing.Color.Gold;
-            this.button12.Location = new System.Drawing.Point(352, 275);
+            this.button12.Location = new System.Drawing.Point(235, 179);
+            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(64, 64);
+            this.button12.Size = new System.Drawing.Size(43, 42);
             this.button12.TabIndex = 11;
             this.button12.Text = "คูณ";
             this.button12.UseVisualStyleBackColor = false;
@@ -209,9 +222,10 @@
             // 
             this.button13.BackColor = System.Drawing.Color.Black;
             this.button13.ForeColor = System.Drawing.Color.Gold;
-            this.button13.Location = new System.Drawing.Point(422, 275);
+            this.button13.Location = new System.Drawing.Point(281, 179);
+            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(64, 64);
+            this.button13.Size = new System.Drawing.Size(43, 42);
             this.button13.TabIndex = 12;
             this.button13.Text = "หาร";
             this.button13.UseVisualStyleBackColor = false;
@@ -221,9 +235,10 @@
             // 
             this.button14.BackColor = System.Drawing.Color.Black;
             this.button14.ForeColor = System.Drawing.Color.Gold;
-            this.button14.Location = new System.Drawing.Point(352, 345);
+            this.button14.Location = new System.Drawing.Point(235, 224);
+            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(64, 64);
+            this.button14.Size = new System.Drawing.Size(43, 42);
             this.button14.TabIndex = 13;
             this.button14.Text = "รากที่สอง";
             this.button14.UseVisualStyleBackColor = false;
@@ -233,9 +248,10 @@
             // 
             this.button15.BackColor = System.Drawing.Color.Black;
             this.button15.ForeColor = System.Drawing.Color.Gold;
-            this.button15.Location = new System.Drawing.Point(422, 345);
+            this.button15.Location = new System.Drawing.Point(281, 224);
+            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(64, 64);
+            this.button15.Size = new System.Drawing.Size(43, 42);
             this.button15.TabIndex = 14;
             this.button15.Text = "รากที่ n";
             this.button15.UseVisualStyleBackColor = false;
@@ -245,10 +261,11 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox1.Location = new System.Drawing.Point(38, 65);
+            this.textBox1.Location = new System.Drawing.Point(25, 42);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(473, 44);
+            this.textBox1.Size = new System.Drawing.Size(317, 32);
             this.textBox1.TabIndex = 15;
             this.textBox1.Tag = "";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -258,9 +275,10 @@
             // 
             this.button16.BackColor = System.Drawing.Color.Black;
             this.button16.ForeColor = System.Drawing.Color.Gold;
-            this.button16.Location = new System.Drawing.Point(72, 345);
+            this.button16.Location = new System.Drawing.Point(48, 224);
+            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(134, 64);
+            this.button16.Size = new System.Drawing.Size(89, 42);
             this.button16.TabIndex = 16;
             this.button16.Text = "0";
             this.button16.UseVisualStyleBackColor = false;
@@ -271,9 +289,10 @@
             this.button17.BackColor = System.Drawing.Color.Black;
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.button17.ForeColor = System.Drawing.Color.Gold;
-            this.button17.Location = new System.Drawing.Point(212, 345);
+            this.button17.Location = new System.Drawing.Point(141, 224);
+            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(64, 64);
+            this.button17.Size = new System.Drawing.Size(43, 42);
             this.button17.TabIndex = 17;
             this.button17.Text = ".";
             this.button17.UseVisualStyleBackColor = false;
@@ -283,9 +302,10 @@
             // 
             this.button18.BackColor = System.Drawing.Color.Black;
             this.button18.ForeColor = System.Drawing.Color.Gold;
-            this.button18.Location = new System.Drawing.Point(492, 205);
+            this.button18.Location = new System.Drawing.Point(328, 133);
+            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(88, 64);
+            this.button18.Size = new System.Drawing.Size(59, 42);
             this.button18.TabIndex = 18;
             this.button18.Text = "CE";
             this.button18.UseVisualStyleBackColor = false;
@@ -295,9 +315,10 @@
             // 
             this.button19.BackColor = System.Drawing.Color.Black;
             this.button19.ForeColor = System.Drawing.Color.Gold;
-            this.button19.Location = new System.Drawing.Point(422, 135);
+            this.button19.Location = new System.Drawing.Point(281, 88);
+            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(64, 64);
+            this.button19.Size = new System.Drawing.Size(43, 42);
             this.button19.TabIndex = 21;
             this.button19.Text = "ลบทีละตัว";
             this.button19.UseVisualStyleBackColor = false;
@@ -308,9 +329,10 @@
             this.button21.BackColor = System.Drawing.Color.Black;
             this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.button21.ForeColor = System.Drawing.Color.Gold;
-            this.button21.Location = new System.Drawing.Point(492, 275);
+            this.button21.Location = new System.Drawing.Point(328, 179);
+            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(88, 64);
+            this.button21.Size = new System.Drawing.Size(59, 42);
             this.button21.TabIndex = 22;
             this.button21.Text = "ยกกำลังสอง";
             this.button21.UseVisualStyleBackColor = false;
@@ -321,9 +343,10 @@
             this.button22.BackColor = System.Drawing.Color.Black;
             this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.button22.ForeColor = System.Drawing.Color.Gold;
-            this.button22.Location = new System.Drawing.Point(492, 345);
+            this.button22.Location = new System.Drawing.Point(328, 224);
+            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(88, 64);
+            this.button22.Size = new System.Drawing.Size(59, 42);
             this.button22.TabIndex = 23;
             this.button22.Text = "ยกกำลัง n";
             this.button22.UseVisualStyleBackColor = false;
@@ -335,9 +358,10 @@
             this.labelOperator.BackColor = System.Drawing.Color.Transparent;
             this.labelOperator.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelOperator.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.labelOperator.Location = new System.Drawing.Point(517, 45);
+            this.labelOperator.Location = new System.Drawing.Point(345, 29);
+            this.labelOperator.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelOperator.Name = "labelOperator";
-            this.labelOperator.Size = new System.Drawing.Size(0, 29);
+            this.labelOperator.Size = new System.Drawing.Size(0, 20);
             this.labelOperator.TabIndex = 25;
             this.labelOperator.Click += new System.EventHandler(this.label2_Click_1);
             // 
@@ -345,9 +369,10 @@
             // 
             this.button23.BackColor = System.Drawing.Color.Black;
             this.button23.ForeColor = System.Drawing.Color.Gold;
-            this.button23.Location = new System.Drawing.Point(352, 415);
+            this.button23.Location = new System.Drawing.Point(235, 270);
+            this.button23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(64, 64);
+            this.button23.Size = new System.Drawing.Size(43, 42);
             this.button23.TabIndex = 27;
             this.button23.Text = "ไซน์";
             this.button23.UseVisualStyleBackColor = false;
@@ -357,9 +382,10 @@
             // 
             this.button24.BackColor = System.Drawing.Color.Black;
             this.button24.ForeColor = System.Drawing.Color.Gold;
-            this.button24.Location = new System.Drawing.Point(422, 415);
+            this.button24.Location = new System.Drawing.Point(281, 270);
+            this.button24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(64, 64);
+            this.button24.Size = new System.Drawing.Size(43, 42);
             this.button24.TabIndex = 28;
             this.button24.Text = "โคไซน์";
             this.button24.UseVisualStyleBackColor = false;
@@ -370,9 +396,10 @@
             this.button25.BackColor = System.Drawing.Color.Black;
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.button25.ForeColor = System.Drawing.Color.Gold;
-            this.button25.Location = new System.Drawing.Point(492, 415);
+            this.button25.Location = new System.Drawing.Point(328, 270);
+            this.button25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(88, 64);
+            this.button25.Size = new System.Drawing.Size(59, 42);
             this.button25.TabIndex = 29;
             this.button25.Text = "แทนเจนต์";
             this.button25.UseVisualStyleBackColor = false;
@@ -382,9 +409,10 @@
             // 
             this.button26.BackColor = System.Drawing.Color.Black;
             this.button26.ForeColor = System.Drawing.Color.Gold;
-            this.button26.Location = new System.Drawing.Point(282, 205);
+            this.button26.Location = new System.Drawing.Point(188, 133);
+            this.button26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(64, 64);
+            this.button26.Size = new System.Drawing.Size(43, 42);
             this.button26.TabIndex = 30;
             this.button26.Text = "=";
             this.button26.UseVisualStyleBackColor = false;
@@ -395,10 +423,11 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox2.Location = new System.Drawing.Point(38, 12);
+            this.textBox2.Location = new System.Drawing.Point(25, 8);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(473, 37);
+            this.textBox2.Size = new System.Drawing.Size(315, 25);
             this.textBox2.TabIndex = 31;
             this.textBox2.Tag = "";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -408,9 +437,10 @@
             // 
             this.button27.BackColor = System.Drawing.Color.Black;
             this.button27.ForeColor = System.Drawing.Color.Gold;
-            this.button27.Location = new System.Drawing.Point(492, 135);
+            this.button27.Location = new System.Drawing.Point(328, 88);
+            this.button27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(88, 64);
+            this.button27.Size = new System.Drawing.Size(59, 42);
             this.button27.TabIndex = 32;
             this.button27.Text = "C";
             this.button27.UseVisualStyleBackColor = false;
@@ -421,21 +451,36 @@
             this.button28.BackColor = System.Drawing.Color.Black;
             this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.button28.ForeColor = System.Drawing.Color.Gold;
-            this.button28.Location = new System.Drawing.Point(352, 135);
+            this.button28.Location = new System.Drawing.Point(235, 88);
+            this.button28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(64, 64);
+            this.button28.Size = new System.Drawing.Size(43, 42);
             this.button28.TabIndex = 33;
             this.button28.Text = "พาย";
             this.button28.UseVisualStyleBackColor = false;
             this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.Black;
+            this.button20.ForeColor = System.Drawing.Color.Gold;
+            this.button20.Location = new System.Drawing.Point(188, 224);
+            this.button20.Margin = new System.Windows.Forms.Padding(2);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(43, 42);
+            this.button20.TabIndex = 34;
+            this.button20.Text = "เปอร์เซ็นต์";
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(639, 495);
+            this.ClientSize = new System.Drawing.Size(426, 322);
+            this.Controls.Add(this.button20);
             this.Controls.Add(this.button28);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.textBox2);
@@ -467,6 +512,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "เครื่องคิดเลขภาษาไทย";
@@ -508,6 +554,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button20;
     }
 }
 

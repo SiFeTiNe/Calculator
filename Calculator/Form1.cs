@@ -23,6 +23,7 @@ namespace Calculator
         string sinText = "ไซน์";
         string cosText = "โคไซน์";
         string tanText = "แทนเจนต์";
+        string percentText = "เปอร์เซ็นต์";
         public Form1()
         {
             InitializeComponent();
@@ -264,6 +265,10 @@ namespace Calculator
                 {
                     textBox1.Text = Math.Tan(double.Parse(textBox1.Text)).ToString();
                 }
+                else if (labelOperator.Text == percentText)
+                {
+                    textBox1.Text = (double.Parse(textBox1.Text) * double.Parse(textBox2.Text) / 100).ToString();
+                }
                 textBox2.Clear();
                 labelOperator.Text = "";
             }
@@ -316,6 +321,17 @@ namespace Calculator
             }
             if (textBox1.Text.Length != 0)
                 labelOperator.Text = tanText;
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length == 0)
+            {
+                textBox2.Text = textBox1.Text;
+                textBox1.Clear();
+            }
+            if (textBox2.Text.Length != 0)
+                labelOperator.Text = percentText;
         }
     }
 }
