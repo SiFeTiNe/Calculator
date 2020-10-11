@@ -33,73 +33,6 @@ namespace Calculator
         {
 
         }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text.Length == 0)
-            {
-                textBox2.Text = textBox1.Text;
-                textBox1.Clear();
-            }
-            if (textBox2.Text.Length != 0)
-                labelOperator.Text = plusText;
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text.Length == 0)
-            {
-                textBox2.Text = textBox1.Text;
-                textBox1.Clear();
-            }
-            if (textBox2.Text.Length != 0)
-                labelOperator.Text = minusText;
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text.Length == 0)
-            {
-                textBox2.Text = textBox1.Text;
-                textBox1.Clear();
-            }
-            if (textBox2.Text.Length != 0)
-                labelOperator.Text = mulText;
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text.Length == 0)
-            {
-                textBox2.Text = textBox1.Text;
-                textBox1.Clear();
-            }
-            if (textBox2.Text.Length != 0)
-                labelOperator.Text = divText;
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text.Length == 0)
-            {
-                textBox2.Text = textBox1.Text;
-                textBox1.Clear();
-            }
-            if (textBox2.Text.Length != 0)
-                labelOperator.Text = rootText;
-        }
-
-        private void button22_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text.Length == 0)
-            {
-                textBox2.Text = textBox1.Text;
-                textBox1.Clear();
-            }
-            if (textBox2.Text.Length != 0)
-                labelOperator.Text = powText;
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             
@@ -114,89 +47,6 @@ namespace Calculator
         {
 
         }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text.Length != 0)
-            {
-                textBox1.Text = textBox2.Text;
-                textBox2.Clear();
-            }
-            if (textBox1.Text.Length != 0)
-                labelOperator.Text = sqrtText;
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-            textBox1.Clear();
-            textBox2.Clear();
-            labelOperator.Text = "";
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("1");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("2");
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("3");
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("4");
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("5");
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("6");
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("7");
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("8");
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("9");
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("0");
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-            if (!textBox1.Text.Contains('.') && textBox1.Text.Length != 0)
-                textBox1.AppendText(".");
-        }
-
-        private void button19_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text.Length != 0)
-                textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1);
-            if (textBox1.Text.Length == 0)
-                textBox1.Clear();
-        }
-
         private void label2_Click_1(object sender, EventArgs e)
         {
 
@@ -211,13 +61,63 @@ namespace Calculator
         {
 
         }
-
-        private void button27_Click(object sender, EventArgs e)
+        private void pictureBox10_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
+            textBox1.AppendText("0");
         }
 
-        private void button26_Click(object sender, EventArgs e) // =
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+            textBox1.AppendText("1");
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            textBox1.AppendText("2");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("3");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("4");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("5");
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("6");
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("7");
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("8");
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("9");
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            if (!textBox1.Text.Contains('.') && textBox1.Text.Length != 0)
+                textBox1.AppendText(".");
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
         {
             if (textBox1.Text.Length != 0 && labelOperator.Text.Length != 0)
             {
@@ -274,23 +174,87 @@ namespace Calculator
             }
         }
 
-        private void button21_Click(object sender, EventArgs e)
+        private void pictureBox19_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text.Length != 0)
-            {
-                textBox1.Text = textBox2.Text;
-                textBox2.Clear();
-            }
             if (textBox1.Text.Length != 0)
-                labelOperator.Text = pow2Text;
+                textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1);
+            if (textBox1.Text.Length == 0)
+                textBox1.Clear();
         }
 
-        private void button28_Click(object sender, EventArgs e)
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            labelOperator.Text = "";
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length == 0)
+            {
+                textBox2.Text = textBox1.Text;
+                textBox1.Clear();
+            }
+            if (textBox2.Text.Length != 0)
+                labelOperator.Text = percentText;
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length == 0)
+            {
+                textBox2.Text = textBox1.Text;
+                textBox1.Clear();
+            }
+            if (textBox2.Text.Length != 0)
+                labelOperator.Text = plusText;
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length == 0)
+            {
+                textBox2.Text = textBox1.Text;
+                textBox1.Clear();
+            }
+            if (textBox2.Text.Length != 0)
+                labelOperator.Text = minusText;
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length == 0)
+            {
+                textBox2.Text = textBox1.Text;
+                textBox1.Clear();
+            }
+            if (textBox2.Text.Length != 0)
+                labelOperator.Text = mulText;
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length == 0)
+            {
+                textBox2.Text = textBox1.Text;
+                textBox1.Clear();
+            }
+            if (textBox2.Text.Length != 0)
+                labelOperator.Text = divText;
+        }
+
+        private void pictureBox24_Click(object sender, EventArgs e)
         {
             textBox1.Text = Math.PI.ToString();
         }
 
-        private void button23_Click(object sender, EventArgs e)
+        private void pictureBox21_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.Length != 0)
             {
@@ -301,7 +265,7 @@ namespace Calculator
                 labelOperator.Text = sinText;
         }
 
-        private void button24_Click(object sender, EventArgs e)
+        private void pictureBox22_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.Length != 0)
             {
@@ -312,7 +276,7 @@ namespace Calculator
                 labelOperator.Text = cosText;
         }
 
-        private void button25_Click(object sender, EventArgs e)
+        private void pictureBox23_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.Length != 0)
             {
@@ -323,7 +287,18 @@ namespace Calculator
                 labelOperator.Text = tanText;
         }
 
-        private void button20_Click(object sender, EventArgs e)
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length != 0)
+            {
+                textBox1.Text = textBox2.Text;
+                textBox2.Clear();
+            }
+            if (textBox1.Text.Length != 0)
+                labelOperator.Text = sqrtText;
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.Length == 0)
             {
@@ -331,7 +306,18 @@ namespace Calculator
                 textBox1.Clear();
             }
             if (textBox2.Text.Length != 0)
-                labelOperator.Text = percentText;
+                labelOperator.Text = rootText;
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length != 0)
+            {
+                textBox1.Text = textBox2.Text;
+                textBox2.Clear();
+            }
+            if (textBox1.Text.Length != 0)
+                labelOperator.Text = pow2Text;
         }
     }
 }
