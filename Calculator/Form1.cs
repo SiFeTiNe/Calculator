@@ -12,18 +12,18 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
-        string plusText = "บวกกับ";
-        string minusText = "ลบกับ";
-        string mulText = "คูณกับ";
-        string divText = "หารกับ";
-        string sqrtText = "รากที่สอง";
-        string rootText = "รากที่";
-        string pow2Text = "ยกกำลังสอง";
-        string powText = "ยกกำลังกับ";
-        string sinText = "ไซน์";
-        string cosText = "โคไซน์";
-        string tanText = "แทนเจนต์";
-        string percentText = "เปอร์เซ็นต์";
+        string plusText = "+";
+        string minusText = "-";
+        string mulText = "x";
+        string divText = "÷";
+        string sqrtText = "√";
+        string rootText = "√n";
+        string pow2Text = "^2";
+        string powText = "^";
+        string sinText = "Sin()";
+        string cosText = "Cos()";
+        string tanText = "Tan()";
+        string percentText = "%";
         public Form1()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace Calculator
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
