@@ -108,12 +108,12 @@
             // 
             this.labelOperator.AutoSize = true;
             this.labelOperator.BackColor = System.Drawing.SystemColors.Control;
-            this.labelOperator.Font = new System.Drawing.Font("OCR A Extended", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOperator.Font = new System.Drawing.Font("Novation Box St", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOperator.ForeColor = System.Drawing.Color.Black;
-            this.labelOperator.Location = new System.Drawing.Point(463, 37);
+            this.labelOperator.Location = new System.Drawing.Point(457, 33);
             this.labelOperator.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelOperator.Name = "labelOperator";
-            this.labelOperator.Size = new System.Drawing.Size(0, 29);
+            this.labelOperator.Size = new System.Drawing.Size(0, 39);
             this.labelOperator.TabIndex = 25;
             this.labelOperator.Click += new System.EventHandler(this.label2_Click_1);
             // 

@@ -20,9 +20,9 @@ namespace Calculator
         string rootText = "√n";
         string pow2Text = "^2";
         string powText = "^";
-        string sinText = "Sin()";
-        string cosText = "Cos()";
-        string tanText = "Tan()";
+        string sinText = "Sin";
+        string cosText = "Cos";
+        string tanText = "Tan";
         string percentText = "%";
         public Form1()
         {
