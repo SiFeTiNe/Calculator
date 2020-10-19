@@ -59,7 +59,12 @@ namespace Calculator
 
         private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
-            
+            Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+            Dim fontCollection = New PrivateFontCollection()
+            fontCollection.AddFontFile(Path.Combine(Application.StartupPath, "Orbitron-Regular.ttf"))
+            Dim font = New Font(fontCollection.Families(0), 12)
+            Me.Font = font
+            End Sub
         }
         private void pictureBox10_Click(object sender, EventArgs e)
         {
