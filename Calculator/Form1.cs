@@ -59,7 +59,7 @@ namespace Calculator
 
         private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
-
+            
         }
         private void pictureBox10_Click(object sender, EventArgs e)
         {
