@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 
 namespace Calculator
@@ -28,8 +29,38 @@ namespace Calculator
         string percentText = "%";
         public Form1()
         {
+            // Font_Install();
             InitializeComponent();
         }
+
+/*
+        [DllImport("gdi32.dll", EntryPoint = "AddFontResourceW", SetLastError = true)]
+        public static extern int AddFontResource([In][MarshalAs(UnmanagedType.LPWStr)]
+                                         string lpFileName);
+
+        [DllImport("gdi32.dll", EntryPoint = "RemoveFontResourceW", SetLastError = true)]
+        public static extern int RemoveFontResource([In][MarshalAs(UnmanagedType.LPWStr)]
+                                            string lpFileName);
+
+        private void Font_Install()
+        {
+            int result = -1;
+            int error = 0;
+
+            // Try install the font.
+            result = AddFontResource(@"C:\MY_FONT_LOCATION\MY_NEW_FONT.TTF");
+            error = Marshal.GetLastWin32Error();
+            if (error != 0)
+            {
+                Console.WriteLine(new Win32Exception(error).Message);
+            }
+            else
+            {
+                Console.WriteLine((result == 0) ? "Font is already installed." :
+                                                  "Font installed successfully.");
+            }
+        }
+*/
 
         private void Form1_Load(object sender, EventArgs e)
         {

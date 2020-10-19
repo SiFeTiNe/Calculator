@@ -92,6 +92,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Resources\font\Orbitron-Regular.ttf" />
+    <EmbeddedResource Include="Resources\font\THSarabun.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -144,8 +146,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\font\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
