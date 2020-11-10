@@ -22,5 +22,29 @@ namespace Calculator.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public int main {
+            get {
+                return ((int)(this["main"]));
+            }
+            set {
+                this["main"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("WaitCursor")]
+        public global::System.Windows.Forms.Cursor Air {
+            get {
+                return ((global::System.Windows.Forms.Cursor)(this["Air"]));
+            }
+            set {
+                this["Air"] = value;
+            }
+        }
     }
 }
